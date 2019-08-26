@@ -1,11 +1,9 @@
 # cse3310 project sample makefile
 
-
-
 CXX=g++
 # note the below asio package may be in a 
 # different place
-CPPFLAGS=-I../asio-1.13.0/include
+CPPFLAGS=-I../asio-1.13.0/include # -I means this directory is one level above current directory of makefile
 CXXFLAGS=-Wall -g -std=c++11 
 
 TARGETS=chat_client chat_server
